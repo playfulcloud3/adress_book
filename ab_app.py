@@ -42,8 +42,8 @@ def add_new_address():
 def update_address():
     print("UPDATE ADDRESS")
     print("-"*15)
-    display_edit_screen(search_address_book())
-
+    # display_edit_screen(search_address_book())
+    search_address_book()
 
 def delete_address():
     print("DELETE ADDRESS")
@@ -66,8 +66,8 @@ def delete_address():
 
 def display_edit_screen(record_for_edit):
     
-    if record_for_edit == None:
-        return
+    # if record_for_edit == None:
+    #     return
 
     get_user_input = lambda input, default : input if input != "" else default
 
@@ -108,21 +108,25 @@ def search_address_book():
             else:
                 record_for_edit = result[id - 1]
                 break
+            #new add
+        display_edit_screen(record_for_edit)
     elif len(result) == 1:
         record_for_edit = result[0]
         display_search_result(result)
+        #return relocate
+        return record_for_edit
     else:
         print("User Not Found")
 
-    return record_for_edit
+    # return record_for_edit
 
 
 def search_address():
-    print("Search Address Book: ")
+    print("Search Address Book333: ")
 
     name = input("\tName: ")
     address = input("\tAddress: ")
-
+    
     result = addressRepo.find_address_book(name, address)
     record_for_edit ={}
     
