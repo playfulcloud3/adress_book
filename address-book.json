@@ -1,0 +1,39 @@
+{
+  "address-book": [
+    {
+      "name": "sam",
+      "address": "sanrafael",
+      "contact": "097777777",
+      "email": "russel123@gmail.com",
+      "id": "26f66960-56f9-4c60-9519-3cbac77de5a4"
+    },
+    {
+      "name": "ben",
+      "address": "sanrafael",
+      "contact": "09655656",
+      "email": "russel123@gmail.com",
+      "id": "26f66960-56f9-4c60-9519-3cbac77de5ay"
+    },
+    {
+      "name": "jose",
+      "address": "clark",
+      "contact": "12344",
+      "email": "toper@gmm.com",
+      "id": "b49b40fe-6527-4bb3-8573-d00ca8482d50"
+    },
+    {
+      "name": "maria",
+      "address": "test",
+      "contact": "098765",
+      "email": "maria@gmail.com",
+      "id": "61665057-8e1a-4bae-ba27-61f708d45301"
+    },
+    {
+      "name": "maria dela cruz",
+      "address": "clark",
+      "contact": "333-333",
+      "email": "",
+      "id": "90054557-b0b2-4c9e-96d7-d945cc260402"
+    }
+  ]
+}
